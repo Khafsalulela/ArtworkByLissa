@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="icon" type="image/jpg" href="photos/aa1.jpg">
+    <title>ABL</title>
+</head>
+
+<body>
+    <main>
+
+        <header class="bg-white text-gray-700 sticky top-0 left-0 right-0 z-50 shadow-lg">
+            <div class="flex items-center justify-between p-4">
+                <div class="logo">
+                    <img src="photos/aa1.jpg" alt="abl" class="w-12 h-12 rounded-full md:h-10">
+                </div>
+                <nav class="hidden md:flex space-x-6 mr-120">
+                    <a href="#" class="text-gray-700 hover:underline">Home</a>
+                    <a href="#second" class="text-gray-700 hover:underline">Services</a>
+                    <a href="#third" class="text-gray-700 hover:underline">Best Sellers</a>
+                    <a href="#contacts" class="text-gray-700 hover:underline">Contact</a>
+                </nav>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden bg-white text-gray-700 p-4">
+                <nav class="flex flex-col space-y-4">
+                    <a href="#" class="text-gray-700 hover:underline">Home</a>
+                    <a href="#second" class="text-gray-700 hover:underline">Services</a>
+                    <a href="#third" class="text-gray-700 hover:underline">Best Sellers</a>
+                    <a href="#contacts" class="text-gray-700 hover:underline">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="md:flex items-center justify-center bg-white px-4 py-8">
+
+            <div class="md:w-1/2 md:px-4   ">
+                <p class="text-gray-700 rounded-lg shadow-lg p-3 text-sm md:text-lg bg-orange-300  w-fit">Home of Timeless Arts</p>
+                <h1 class=" text-orange-900 text-3xl md:text-6xl mt-4 font-bold">Crafting Your Vision To Timeless Artworks</h1>
+                <p class="text-sm md:text-base   mt-4">Transform your living space or work space with our bespoke artworks and designs.We specialize in creating elegant, functional and timeless arts and interiors.</p>
+                <button class="bg-orange-900 text-white px-6 py-3 shadow-lg text-sm md:text-base rounded-lg mt-4 hover:bg-orange-300 hover:text-black cursor-pointer">
+                <a href="https://wa.me/255754890388" target="_blank"> <i class="fa-brands fa-whatsapp text-xl"></i> Chat on WhatsApp</a>
+            </button>
+                <div class="flex flex-wrap items-center justify-between shadow-lg bg-orange-300 p-4 mt-4 rounded-lg gap-2">
+                    <div class="text-center">
+                        <h2 class="text-xl md:text-2xl text-orange-900 font-bold">100+</h2>
+                        <p class="text-sm md:text-base">Happy Customers</p>
+                    </div>
+                    <div class="text-center">
+                        <h2 class="text-xl md:text-2xl text-orange-900 font-bold">50+</h2>
+                        <p class="text-sm md:text-base">Arts Installations and Designs</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <img src="photos/a1.jpg" class=" w-full shadow-lg rounded-lg h-125 ">
+            </div>
+        </div>
+
+
+        <section id="second" class="bg-gradient-to-br from-yellow-50 to-amber-100 text-gray-700  md:p-10 mt-8 ">
+            <h4 class="text-xl md:text-3xl text-center text-amber-700 font-bold mb-2 ">Services</h4>
+            <h2 class="text-xl md:text-1xl text-center font-bold mb-8 ">We handle every detail from concept to completion, ensuring a seamless and exceptional art pieces are delivered to satisfy your needs and vision.</h2>
+            <div class="md:flex items-start justify-center gap-8 ">
+                <div class="md:w-1/3 bg-amber-100 p-6 mb-8 md:mb-0 rounded-lg shadow-lg ">
+                    <i class="fa-solid fa-eraser text-3xl md:text-4xl text-amber-700 mb-4 "></i>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 ">Site Visits</h3>
+                    <p class="text-sm md:text-base mb-4 ">Conduct on-site assessments to understand the space, environment, and client requirements. Evaluate lighting, layout, and architectural features to determine the best placement and style of artworks.</p>
+
+                </div>
+                <div class="md:w-1/3 bg-amber-100 p-6 mb-8 md:mb-0 rounded-lg shadow-lg ">
+                    <i class="fa-solid fa-paint-roller text-3xl md:text-4xl text-amber-700 mb-4 "></i>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 ">Designing and Crafting Artworks</h3>
+                    <p class="text-sm md:text-base mb-4 ">Create original artwork concepts tailored to the project, blending creativity, cultural themes, and functional design. Use sketches, digital tools, and prototypes to visualize the final outcome and align with client expectations.</p>
+
+                </div>
+                <div class="md:w-1/3 bg-amber-100 p-6 rounded-lg shadow-lg ">
+                    <i class="fa-solid fa-palette text-3xl md:text-4xl text-amber-700 mb-4 "></i>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 ">Arts Installation and Placement</h3>
+                    <p class="text-sm md:text-base mb-4 ">Plan and execute the setup of artworks within the site. Ensure correct placement, stability, and integration with the surrounding environment while maintaining safety and aesthetic balance.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="third" class="bg-white text-black p-6 md:p-10 mt-8 ">
+            <div>
+                <div class=" ">
+                    <h4 class="text-2xl text-center text-orange-900 md:text-3xl font-bold mb-2 ">Best Sellers</h4>
+                    <h3 class="text-base md:text-xl font-bold mb-8 ">Browse some of our best selling works and get inspired for your own home or office transformation with our exquisite art pieces</h3>
+                </div>
+                <div class="flex justify-center gap-10 flex-wrap">
+                    <div class="relative w-80 h-64 overflow-hidden rounded-xl group">
+                        <img src="photos/a1.jpg" alt="Demo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 class="text-lg font-bold">Crafted World Map</h3>
+                            <p class="text-sm">Designed and crafted World map using Mdf and LED lights</p>
+                        </div>
+                    </div>
+
+                    <div class="relative w-80 h-64 overflow-hidden rounded-xl group">
+                        <img src="photos/abl1.jpg" alt="Demo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 class="text-lg font-bold">Crafted Tanzania Map</h3>
+                            <p class="text-sm">Designed and crafted Tanzania map using Mdf and LED lights.</p>
+                        </div>
+                    </div>
+                    <div class="relative w-80 h-64 overflow-hidden rounded-xl group">
+                        <img src="photos/abl2.jpg" alt="Demo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 class="text-lg font-bold">Golden Logo Design</h3>
+                            <p class="text-sm">Created and customized Golden Logo design.</p>
+                        </div>
+                    </div>
+                    <div class="relative w-80 h-64 overflow-hidden rounded-xl group">
+                        <img src="photos/abl3.jpg" alt="Demo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 class="text-lg font-bold">Wall Arts </h3>
+                            <p class="text-sm">Mission and Vision statements.</p>
+                        </div>
+                    </div>
+                    <div class="relative w-80 h-64 overflow-hidden rounded-xl group">
+                        <img src="photos/abl4.jpg" alt="Demo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 class="text-lg font-bold">Serengeti Map</h3>
+                            <p class="text-sm">Designed and crafted Serengeti map using Mdf and LED lights.</p>
+                        </div>
+                    </div>
+                    <div class="relative w-80 h-64 overflow-hidden rounded-xl group">
+                        <img src="photos/abl5.jpg" alt="Demo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition duration-500">
+                            <h3 class="text-lg font-bold">Mdf World Map</h3>
+                            <p class="text-sm">World Map engraved in mdf.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <section>
+            <div class="bg-gradient-to-br from-yellow-50 to-amber-100 py-16 px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-4xl font-bold text-gray-900 mb-4">What People Say About Us</h2>
+                        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                            Don't just take our word for it. Here's what our clients have to say.
+                        </p>
+                    </div>
+
+                    <div class="relative overflow-hidden">
+                        <div id="slider" class="flex transition-transform duration-500 ease-in-out" style="transform: translateX(0%);">
+
+                            <div class="w-full flex-shrink-0">
+                                <div class="max-w-4xl mx-auto">
+                                    <div class="bg-white rounded-2xl shadow-xl p-8 mx-4">
+                                        <div class="mb-8">
+                                            <div class="text-6xl text-indigo-200 font-serif leading-none mb-4">"</div>
+                                            <p class="text-xl text-gray-700 leading-relaxed">
+                                                Absolutely fantastic service! The team went above and beyond to deliver exactly what we needed.
+                                            </p>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center space-x-4">
+                                                <div class="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold">
+                                                    SJ
+                                                </div>
+                                                <div>
+                                                    <h4 class="font-semibold text-gray-900">Sarah Johnson</h4>
+                                                    <p class="text-gray-600">Marketing Director at TechCorp</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-yellow-400 text-xl">★★★★★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-full flex-shrink-0">
+                                <div class="max-w-4xl mx-auto">
+                                    <div class="bg-white rounded-2xl shadow-xl p-8 mx-4">
+                                        <div class="mb-8">
+                                            <div class="text-6xl text-indigo-200 font-serif leading-none mb-4">"</div>
+                                            <p class="text-xl text-gray-700 leading-relaxed">
+                                                Working with this team has been a game-changer for our business. They delivered amazing results.
+                                            </p>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center space-x-4">
+                                                <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">
+                                                    MC
+                                                </div>
+                                                <div>
+                                                    <h4 class="font-semibold text-gray-900">Michael Chen</h4>
+                                                    <p class="text-gray-600">CEO at StartupHub</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-yellow-400 text-xl">★★★★★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-full flex-shrink-0">
+                                <div class="max-w-4xl mx-auto">
+                                    <div class="bg-white rounded-2xl shadow-xl p-8 mx-4">
+                                        <div class="mb-8">
+                                            <div class="text-6xl text-indigo-200 font-serif leading-none mb-4">"</div>
+                                            <p class="text-xl text-gray-700 leading-relaxed">
+                                                Outstanding expertise and customer service. They delivered a perfect solution for our needs.
+                                            </p>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center space-x-4">
+                                                <div class="w-16 h-16 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold">
+                                                    ER
+                                                </div>
+                                                <div>
+                                                    <h4 class="font-semibold text-gray-900">Emily Rodriguez</h4>
+                                                    <p class="text-gray-600">Product Manager at InnovateCo</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-yellow-400 text-xl">★★★★★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <button class="absolute left-5 top-1/2 transform -translate-y-1/2 -translate-x-4 bg-white rounded-full p-3 shadow-lg hover:shadow-xl z-10" onclick="moveSlider(-1)"><i class="fa-solid fa-less-than"></i>
+                    <span class="text-gray-600 text-2xl"></span>
+                </button>
+
+                        <button class="absolute right-5 top-1/2 transform -translate-y-1/2 translate-x-4 bg-white rounded-full p-3 shadow-lg hover:shadow-xl z-10" onclick="moveSlider(1)"><i class="fa-solid fa-greater-than"></i>
+                    <span class="text-gray-600 text-2xl"></span>
+                </button>
+                    </div>
+
+                    <div class="flex justify-center space-x-3 mt-8">
+                        <button class="dot w-8 h-3 rounded-full bg-indigo-600" onclick="jumpToSlide(0)"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400" onclick="jumpToSlide(1)"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400" onclick="jumpToSlide(2)"></button>
+                    </div>
+
+                    <div class="text-center mt-6">
+                        <button id="autoBtn" class="text-sm text-gray-500 hover:text-gray-700" onclick="toggleAuto()">
+                    Pause auto-play
+                </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contacts" class="bg-white text-black ">
+            <div class=" ">
+
+                <div class=" flex items-center p-5 justify-center ">
+                    <div class="text-center text-black px-4 ">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4 ">Get in Touch</h2>
+                        <p class="mb-6 font-bold text-sm md:text-base ">Ready to evolve your workspace or home with our outstanding artpieces? Contact us directly to discuss your project.</p>
+                        <button class="bg-orange-900 text-white px-6 py-3 shadow-lg text-sm md:text-base rounded-lg mt-4 hover:bg-orange-300 hover:text-black cursor-pointer">
+                <a href="https://wa.me/255754890388" target="_blank"> <i class="fa-brands fa-whatsapp text-xl"></i> Chat on WhatsApp</a>
+            </button>
+                        <button class="bg-orange-900 text-white px-6 py-3 shadow-lg text-sm md:text-base rounded-lg mt-4 hover:bg-orange-300 hover:text-black cursor-pointer">
+                <a href="https://instagram.com/artwork_by_lissa" target="_blank"> <i class="fa-brands fa-instagram"></i></i> Follow on Instagram</a>
+            </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-orange-900 text-white p-6 md:p-10 ">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 ">
+                    <div class="md:col-span-2 ">
+                        <img src="photos/aa1.jpg" alt="abl" class="w-12 h-12 rounded-full md:h-10">
+                        <p class="text-sm md:text-base ">Home of Timeless Arts</p>
+                    </div>
+                    <div>
+                        <h5 class="text-base md:text-lg font-bold mb-4 ">Navigation</h5>
+                        <ul class="space-y-2 text-sm md:text-base ">
+                            <li><a href="# " class="text-white hover:underline ">Home</a></li>
+
+                            <li><a href="#second " class="text-white hover:underline ">Services</a></li>
+                            <li><a href="#third " class="text-white hover:underline ">Best Sellers</a></li>
+                            <li><a href="#contacts " class="text-white hover:underline ">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="text-base md:text-lg font-bold mb-4 ">Contact Us</h5>
+                        <ul class="space-y-2 text-sm md:text-base ">
+                            <li><a href="tel:+255754890388 " class="text-white hover:underline ">Tel: +255754890388</a></li>
+                            <li><a href="mailto:solax@support.com " class="text-white hover:underline ">Email: solax@support.com</a></li>
+                            <li>Makumbusho - Dar es Salaam</li>
+                            <li>Mon-Sat 8am-7pm GMT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center bg-orange-950 text-white py-2 ">
+
+            <p>2025@ArtworkByLissa. All rights reserved</p>
+        </footer>
+    </main>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        var slideIndex = 0;
+        var maxSlides = 3;
+        var autoPlay = true;
+        var autoTimer = null;
+
+        function updateSlider() {
+            var slider = document.getElementById('slider');
+            var offset = slideIndex * -100;
+            slider.style.transform = 'translateX(' + offset + '%)';
+            updateDots();
+        }
+
+        function updateDots() {
+            var dots = document.getElementsByClassName('dot');
+            for (var i = 0; i < dots.length; i++) {
+                if (i === slideIndex) {
+                    dots[i].className = 'dot w-8 h-3 rounded-full bg-indigo-600';
+                } else {
+                    dots[i].className = 'dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400';
+                }
+            }
+        }
+
+        function moveSlider(direction) {
+            if (direction === 1) {
+                slideIndex = (slideIndex + 1) % maxSlides;
+            } else {
+                slideIndex = slideIndex === 0 ? maxSlides - 1 : slideIndex - 1;
+            }
+            updateSlider();
+        }
+
+        function jumpToSlide(index) {
+            slideIndex = index;
+            updateSlider();
+        }
+
+        function startAuto() {
+            if (autoPlay && !autoTimer) {
+                autoTimer = setInterval(function() {
+                    moveSlider(1);
+                }, 4000);
+            }
+        }
+
+        function stopAuto() {
+            if (autoTimer) {
+                clearInterval(autoTimer);
+                autoTimer = null;
+            }
+        }
+
+        function toggleAuto() {
+            autoPlay = !autoPlay;
+            var btn = document.getElementById('autoBtn');
+            if (autoPlay) {
+                startAuto();
+                btn.textContent = 'Pause auto-play';
+            } else {
+                stopAuto();
+                btn.textContent = 'Resume auto-play';
+            }
+        }
+
+        startAuto();
+    </script>
+</body>
+
+</html>
